@@ -1067,7 +1067,7 @@ export default function Home() {
               Encontre-nos aqui!
             </h3>
 
-            <div className="w-96 h-72 flex justify-center tablet:w-80">
+            <div className="w-96 h-72 flex justify-center oldMobile:w-60 sm:w-80">
               <Map />
             </div>
           </div>
@@ -1075,8 +1075,8 @@ export default function Home() {
 
         {/* ----------  --------- */}
 
-        <div className="w-full flex items-center justify-between bg-footerBlack px-24 py-6 mobile:px-6">
-          <div>
+        <div className="w-full flex items-center justify-between bg-footerBlack px-24 py-6 mobile:px-6 mobile:flex-wrap mobile:gap-2 mobile:justify-center">
+          <div className="">
             <span className="text-white flex items-center gap-2">
               <span>
                 <AiOutlineCopyright className="text-xl fill-white" />
