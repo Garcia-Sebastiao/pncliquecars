@@ -129,7 +129,11 @@ export default function Home() {
           w-full
           tablet:py-0.5
           transition-all duration-200
-          ${showMenu ? "shadow-md bg-white fixed top-0 left-0 z-[2000] w-full" : ""}
+          ${
+            showMenu
+              ? "shadow-md bg-white fixed top-0 left-0 z-[2000] w-full"
+              : ""
+          }
           
           mobile:px-6 
           tablet:px-10`}
@@ -747,6 +751,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage2}
+              onClick={() => setIsOpen(true)}
             />
 
             <Product
@@ -755,6 +760,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage1}
+              onClick={() => setIsOpen(true)}
             />
 
             <Product
@@ -763,6 +769,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage2}
+              onClick={() => setIsOpen(true)}
             />
 
             <Product
@@ -771,6 +778,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage1}
+              onClick={() => setIsOpen(true)}
             />
           </div>
 
@@ -787,6 +795,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage2}
+              onClick={() => setIsOpen(true)}
             />
             <Product
               velocity="50,000"
@@ -794,6 +803,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage2}
+              onClick={() => setIsOpen(true)}
             />
             <Product
               velocity="50,000"
@@ -801,6 +811,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage2}
+              onClick={() => setIsOpen(true)}
             />
             <Product
               velocity="50,000"
@@ -808,6 +819,7 @@ export default function Home() {
               model="AUDI MODEL"
               price="Preço inicial de 210,450 kz por dia"
               carImage={carImage2}
+              onClick={() => setIsOpen(true)}
             />
             \
           </div>

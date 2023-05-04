@@ -50,7 +50,7 @@ export default function Product(props) {
         <span className="text-lg pt-1">{props.price}</span>
       </div>
 
-      <button className="bg-mainColor mt-5 py-3 w-full rounded-lg flex-1 border-none text-white">
+      <button onClick={props.onClick} className="bg-mainColor mt-5 py-3 w-full rounded-lg flex-1 border-none text-white">
         Alugar
       </button>
     </motion.div>
