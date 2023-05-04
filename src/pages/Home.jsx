@@ -1067,7 +1067,7 @@ export default function Home() {
               Encontre-nos aqui!
             </h3>
 
-            <div className="w-96 h-72 flex justify-center oldMobile:w-60 sm:w-80">
+            <div className="w-96 h-72 flex justify-center mobile:w-72">
               <Map />
             </div>
           </div>

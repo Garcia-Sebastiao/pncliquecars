@@ -4,7 +4,7 @@ import "./map.css";
 export default function Map() {
   return (
     <MapContainer
-      center={[-8.8788578, 13.1985628, 21]}
+      center={[-8.9040237, 13.1635662, 15]}
       zoom={13}
       scrollWheelZoom={false}
     >
@@ -12,7 +12,7 @@ export default function Map() {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[-8.8788578, 13.1985628, 21]}>
+      <Marker position={[-8.9040237, 13.1635662, 15]}>
         <Popup>
           A pretty CSS3 popup. <br /> Easily customizable.
         </Popup>
