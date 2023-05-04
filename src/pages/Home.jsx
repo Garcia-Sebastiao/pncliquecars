@@ -129,7 +129,7 @@ export default function Home() {
           w-full
           tablet:py-0.5
           transition-all duration-200
-          ${showMenu ? "shadow-md bg-white fixed top-0 left-0 z-50 w-full" : ""}
+          ${showMenu ? "shadow-md bg-white fixed top-0 left-0 z-[2000] w-full" : ""}
           
           mobile:px-6 
           tablet:px-10`}
